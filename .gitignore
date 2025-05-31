@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.env
+*.venv/
+env/
+venv/
+ENV/
+Pipfile.lock
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/  # If you use collectstatic in production
+local_settings.py
+
+# dotenv
+.env
+.env.*
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Node.js (if using a JS frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+build/
+.env.local
+.env.development
+.env.production
+
+# Coverage / testing
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+test-results/
+
+# Migrations (optional: keep only if working solo or testing)
+**/migrations/*.py
+!**/migrations/__init__.py
